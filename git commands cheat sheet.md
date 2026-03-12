@@ -30,7 +30,7 @@ git blame <file>         # See who changed what
 git show <commit>        # Show commit details
 
 
-git reset --soft HEAD~1          # Undo commit, keep changes
+git reset --soft HEAD~1 # Undo commit, keep changes
 git stash               # Save changes
 git stash list          # View stashes
 git stash apply         # Apply latest stash
