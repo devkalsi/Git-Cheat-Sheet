@@ -20,8 +20,8 @@ git push -u origin main  # Sets upstream so future `git push` works without args
 
 git remote -v            # List of any configured remote URLs
 git remote add origin https://github.com/devkalsi/Git-Cheat-Sheet.git #Add Origin to remote
-git fetch                # Fetch changes
-git pull                 # Fetch + merge
+git fetch                # Fetch changes from remote, but dont make local changes
+git pull                 # Fetch + merge changes into local files
 git pull --rebase        # pull everything missing from remote main
 git push --force         # Push update on already pushed commit
 git push origin <branch> # Push branch
