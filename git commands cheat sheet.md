@@ -22,7 +22,7 @@ git remote -v            # List of any configured remote URLs
 git remote add origin https://github.com/devkalsi/Git-Cheat-Sheet.git #Add Origin to remote
 git fetch                # Fetch changes
 git pull                 # Fetch + merge
-git pull --rebase        #pull everything missing from remote main
+git pull --rebase        # pull everything missing from remote main
 git push --force         # Push update on already pushed commit
 git push origin <branch> # Push branch
 
