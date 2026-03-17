@@ -1,3 +1,5 @@
+git config --list | findstr user    # Show git config, username
+
 git init                 # Initialize a new repo
 git clone <repo_url>     # Clone a remote repo
 git status               # Check repo status
@@ -16,7 +18,7 @@ git branch -M main       # Renames current branch to 'main' (safe even if alread
 git branch --set-upstream-to=origin/main main #This tells Git: “my local main follows the remote main.”
 git push -u origin main  # Sets upstream so future `git push` works without args
 
-git remote -v            # View remotes
+git remote -v            # List of any configured remote URLs
 git remote add origin https://github.com/devkalsi/Git-Cheat-Sheet.git #Add Origin to remote
 git fetch                # Fetch changes
 git pull                 # Fetch + merge
